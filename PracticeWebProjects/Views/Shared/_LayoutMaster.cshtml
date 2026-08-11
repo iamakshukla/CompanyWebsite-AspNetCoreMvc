@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <hi>Company Name With Logo</hi>
+        </div>
+        <div class="Menu">
+            <ul>
+                <li>
+                    <a href="/guest/home">Home</a>
+                </li>
+                <li>
+                    <a href="/guest/Aboutus">Aboutus</a>
+                </li>
+                <li>
+                    <a href="/guest/Gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="/guest/Services">Services</a>
+                </li>
+                <li>
+                    <a href="/guest/Contactus">Contactus</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </header>
+    <div id="middlepart">
+        @RenderBody()
+    </div>
+    <footer>
+        <div class="footerpart">
+             <h3>Contact us</h3>
+        </div>
+        <div class="footerpart">
+            <h3>About us </h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="footerpart">
+            <h3> Social Icons</h3>
+        </div>
+    </footer>
+</body>
+</html>
